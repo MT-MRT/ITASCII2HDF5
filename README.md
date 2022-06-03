@@ -16,11 +16,11 @@ Es muss eine aktuelle Python 3 Version installiert werden. Anschließend mittels
 pip install -r requirements.txt
 ```
 
-Das Skript [ASCII2HDF.py](https://github.com/MT-MRT/ITASCII2HDF5/ASCII2HDF.py) wandelt vorhandene ASCII-Dateien um. Dort muss der Ordner ausgewählt werden, in dem alle zusammenzuführenden ASCII-Dateien liegen. Bitte keine anderen Dateien im Ordner speichern. Außerdem den Dateinamen wählen. Anschließend kann das Skript gestartet werden:
+Das Skript [ASCII2HDF.py](https://github.com/MT-MRT/ITASCII2HDF5/blob/main/ASCII2HDF.py) wandelt vorhandene ASCII-Dateien um. Dort muss der Ordner ausgewählt werden, in dem alle zusammenzuführenden ASCII-Dateien liegen. Bitte keine anderen Dateien im Ordner speichern. Außerdem den Dateinamen wählen. Anschließend kann das Skript gestartet werden:
 
 ```bash
 cd pfad/zu/dem/skript
 python3 ASCII2HDF.py
 ```
 
-[openHDF.py](https://github.com/MT-MRT/ITASCII2HDF5/openHDF.py) zeigt ein Beispiel, wie mit Python alle Bilder in einem HDF5-Container nacheinander geöffnet und angezeigt werden.
+[openHDF.py](https://github.com/MT-MRT/ITASCII2HDF5/blob/main/openHDF.py) zeigt ein Beispiel, wie mit Python alle Bilder in einem HDF5-Container nacheinander geöffnet und angezeigt werden.
