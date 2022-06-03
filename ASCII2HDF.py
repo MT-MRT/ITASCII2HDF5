@@ -17,9 +17,11 @@ def convert(s):
 
 if __name__ == '__main__':
 
-    folder_src = './ASCII/' # Hier 
-    output_file = './ImageSeries.hdf5'
-
+    ##############################################################################
+    folder_src = './ASCII/' # Hier den Ordner mit den ASCII-Dateien auswählen
+    output_file = './ImageSeries.hdf5' # Hier den Dateinamen der HDF5 Datei ändern
+    ##############################################################################
+    
     file_list = os.listdir(folder_src)
     hdf_file_handle = h5py.File(output_file, "w")
 
